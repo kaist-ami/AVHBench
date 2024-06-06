@@ -4,7 +4,7 @@ This repository contains dataset for the NeurIPS 2024 Submission, \
 
 
 ## Download the AVHBench Dataset
-1. Download AVHBench dataset in [here](https://drive.google.com/file/d/15KjSeYn3tjiHXiswLgffmxPEoMYtepv2/view?usp=sharing)
+1. Download AVHBench dataset in [here](https://github.com/AVHBench/AVHBench)
 2. unzip the dataset.
 
     ```
