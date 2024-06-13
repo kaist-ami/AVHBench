@@ -7,8 +7,8 @@ This repository contains dataset for the NeurIPS 2024 Submission, \
 ## Download the AVHBench Dataset
 At this time, we provide a subset of AVHBench, which includes both real and synthetic (swapped) video samples.
 
-1. Download AVHBench dataset v.0 in [here](https://drive.google.com/file/d/1bLHjdlk0G51RfIztXPNmWkqd3nvy7KLT/view?usp=drive_link)
-2. unzip the dataset.
+1. Download AVHBench dataset v.0 in [here](https://drive.google.com/file/d/1bLHjdlk0G51RfIztXPNmWkqd3nvy7KLT/view?usp=sharing)
+2. Unzip the dataset.
 
     ```
     AVHBench_v0
