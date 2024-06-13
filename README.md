@@ -1,5 +1,5 @@
 # AVHBench
-This repository contains dataset for the NeurIPS 2024 Submission, \
+This repository contains dataset for the NeurIPS 2024 Datasets and Benchmarks Track Submission, \
 [AVHBench: A Cross-Modal Hallucination Evluation for Audio-Visual Large Language Models].
 
 <img width="1503" alt="AVHBench_teaser" src="https://github.com/AVHBench/AVHBench/assets/171882807/82cdc40a-1c1b-4d9d-80f1-a11e37a029b5">
