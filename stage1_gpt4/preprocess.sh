@@ -11,7 +11,6 @@ do
     VIDNAME="${VIDNAMEMP4%.*}"
     echo "$VIDNAME"
 
-    # if [ -e /data/mok/audiocaps_code/audiocaps_frames_08fps/"$VIDNAME" ]; then
     if [ -e ../data/AVHBench_v0/frame/"$VIDNAME" ]; then
         echo "$VIDNAME Already processed."
         continue
