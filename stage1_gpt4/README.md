@@ -1,6 +1,4 @@
-#AVHBench
 
-For stage1, 
 ## Requirements.
 1. first set recognize-anything.
 - make the conda environment 'recognize_anything'.
