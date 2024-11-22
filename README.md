@@ -2,7 +2,7 @@
 This repository contains dataset for the ICLR 2025 Submission, \
 [AVHBench: A Cross-Modal Hallucination Evluation for Audio-Visual Large Language Models].
 
-<img width="1503" alt="AVHBench_teaser" src="https://github.com/AVHBench/AVHBench/assets/171882807/82cdc40a-1c1b-4d9d-80f1-a11e37a029b5">
+<img width="1450" alt="0_teaser_iclr" src="https://github.com/user-attachments/assets/4236aed7-8d6d-4a57-9421-5eb310cf499d">
 
 ## Download the AVHBench Dataset
 At this time, we provide a subset of AVHBench, which includes both real and synthetic (swapped) video samples.
