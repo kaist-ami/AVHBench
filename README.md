@@ -1,6 +1,5 @@
 # AVHBench
-This repository contains dataset for the ICLR 2025 Submission, \
-[AVHBench: A Cross-Modal Hallucination Evluation for Audio-Visual Large Language Models].
+This repository contains dataset for [AVHBench: A Cross-Modal Hallucination Evluation for Audio-Visual Large Language Models], ICLR 2025.
 
 <img width="1450" alt="0_teaser_iclr" src="https://github.com/user-attachments/assets/4236aed7-8d6d-4a57-9421-5eb310cf499d">
 
