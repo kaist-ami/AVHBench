@@ -1,6 +1,8 @@
 # AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models (ICLR 2025)
 Authors: [Kim Sung-Bin*](https://sites.google.com/view/kimsungbin), [Oh Hyun-Bin*](https://hyunbin70.github.io/), [JungMok Lee](https://ami.postech.ac.kr/d81b1c7c-7c84-4904-808e-097513816ae1/),
 [Arda Senocak](https://ardasnck.github.io), [Joon Son Chung](https://mm.kaist.ac.kr/joon/), [Tae-Hyun Oh](https://ami.postech.ac.kr/members/tae-hyun-oh)
+<br>
+(* denotes equal contribution.)
 
 ### [Project Page](https://avhbench.github.io/) | [Github](https://github.com/postech-ami/AVHBench) | [Paper](https://arxiv.org/pdf/2410.18325) 
 
