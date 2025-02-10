@@ -1,7 +1,17 @@
-# AVHBench (ICLR 2025)
-This repository contains the official dataset of the ICLR 2025 paper, ''AVHBench: A Cross-Modal Hallucination Evluation for Audio-Visual Large Language Models''.
+# AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models (ICLR 2025)
+Authors: [Kim Sung-Bin*](https://sites.google.com/view/kimsungbin), [Oh Hyun-Bin*](https://hyunbin70.github.io/), [JungMok Lee](https://ami.postech.ac.kr/d81b1c7c-7c84-4904-808e-097513816ae1/),
+[Arda Senocak](https://ardasnck.github.io), [Joon Son Chung](https://mm.kaist.ac.kr/joon/), [Tae-Hyun Oh](https://ami.postech.ac.kr/members/tae-hyun-oh)
+
+### [Project Page](https://avhbench.github.io/) | [Github](https://github.com/postech-ami/AVHBench) | [Paper](https://arxiv.org/pdf/2410.18325) 
 
 <img width="1450" alt="0_teaser_iclr" src="https://github.com/user-attachments/assets/4236aed7-8d6d-4a57-9421-5eb310cf499d">
+
+This repository contains the official dataset for the ICLR 2025 paper, ["AVHBench: A Cross-Modal Hallucination Evluation for Audio-Visual Large Language Models"](https://arxiv.org/pdf/2410.18325).
+We introduce AVHBench, the first comprehensive benchmark specifically designed to evaluate the perception and comprehension capabilities of audio-visual LLMs.
+
+<br>
+
+> **Abstract:** *Following the success of Large Language Models (LLMs), expanding their boundaries to new modalities represents a significant paradigm shift in multimodal understanding. Human perception is inherently multimodal, relying not only on text but also on auditory and visual cues for a complete understanding of the world. In recognition of this fact, audio-visual LLMs have recently emerged. Despite promising developments, the lack of dedicated benchmarks poses challenges for understanding and evaluating models. In this work, we show that audio-visual LLMs struggle to discern subtle relationships between audio and visual signals, leading to hallucinations, underscoring the need for reliable benchmarks. To address this, we introduce AVHBench, the first comprehensive benchmark specifically designed to evaluate the perception and comprehension capabilities of audio-visual LLMs. Our benchmark includes tests for assessing hallucinations, as well as the crossmodal matching and reasoning abilities of these models. Our results reveal that most existing audio-visual LLMs struggle with hallucinations caused by crossinteractions between modalities, due to their limited capacity to perceive complex multimodal signals and their relationships. Additionally, we demonstrate that simple training with our AVHBench improves robustness of audio-visual LLMs against hallucinations.*
 
 ## Leaderboard
 
