@@ -120,10 +120,10 @@ At this time, we provide a subset of AVHBench, which includes both real and synt
 ## Citation
 If you use AVHBench in a research paper, please cite our work as follows:
 ````BibTeX
-@inproceeding{sung2024avhbench,
-  title={AVHBench: A Cross-Modal Hallucination Evluation for Audio-Visual Large Language Models},
+@article{sung2024avhbench,
+  title={AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models},
   author={Sung-Bin, Kim and Hyun-Bin, Oh and Lee, JungMok and Senocak, Arda and Chung, Joon Son and Oh, Tae-Hyun},
-  booktitle={arXiv preprint arXiv:2410.18325},
+  journal={arXiv preprint arXiv:2410.18325},
   year={2024}
 }
 ````
