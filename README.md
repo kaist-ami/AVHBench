@@ -6,7 +6,7 @@ Authors: [Kim Sung-Bin*](https://sites.google.com/view/kimsungbin), [Oh Hyun-Bin
 
 ### [Project Page](https://avhbench.github.io/) | [Github](https://github.com/postech-ami/AVHBench) | [Paper](https://arxiv.org/pdf/2410.18325) 
 
-<img width="1450" alt="0_teaser_iclr" src="https://github.com/user-attachments/assets/4236aed7-8d6d-4a57-9421-5eb310cf499d">
+<img width="1888" alt="Image" src="https://github.com/user-attachments/assets/a9c48347-954a-4cd9-b499-2dcd3c27f61c" />
 
 This repository contains the official dataset for the ICLR 2025 paper, ["AVHBench: A Cross-Modal Hallucination Evluation for Audio-Visual Large Language Models"](https://arxiv.org/pdf/2410.18325).
 We introduce AVHBench, the first comprehensive benchmark specifically designed to evaluate the perception and comprehension capabilities of audio-visual LLMs.
