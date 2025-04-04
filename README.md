@@ -21,33 +21,35 @@ We introduce AVHBench, the first comprehensive benchmark specifically designed t
 
  |Rank        |    Model            | Acc. (↑)                        | Precision (↑)    | Recall (↑)       | F1 (↑)           | Yes (%)          | 
  |:----------:|---------------------|---------------------------------|------------------|------------------|------------------|------------------|
- |🥇**1st**   | Gemini-Flash        | 83.3                            | 85.7             | 81.0             | 83.7             | 47.3             | 
- |🥈**2nd**   | Video-SALMONN       | 78.1                            | 74.9             | 84.5             | 79.4             | 56.4             | 
- |🥉**3rd**   | Video-LLaMA2        | 75.2                            | 73.6             | 78.7             | 76.1             | 53.6             |
- |4th         | PandaGPT            | 58.5                            | 55.3             | 91.1             | 68.8             | 82.3             |
- |5th         | OneLLM              | 53.7                            | 58.6             | 64.8             | 49.8             | 63.1             |
- |6th         | ChatBridge          | 52.9                            | 70.9             | 52.9             | 48.9             | 77.6             |
- |7th         | ImageBind-LLM       | 50.3                            | 50.2             | 87.1             | 63.7             | 86.7             |
- |8th         | Video-LLaMA         | 50.1                            | 50.1             | 100              | 66.7             | 99.9             |
- |9th         | X-InstrcutBLIP      | 18.1                            | 16.0             | 15.0             | 15.5             | 46.9             |
+ |🥇**1st**   | AVHBench-Align-FT   | 83.9                            | -                |  -               | -                | -             |
+ |🥈**2nd**   | Gemini-Flash        | 83.3                            | 85.7             | 81.0             | 83.7             | 47.3             | 
+ |🥉**3rd**   | Video-SALMONN       | 78.1                            | 74.9             | 84.5             | 79.4             | 56.4             | 
+ |4th         | Video-LLaMA2        | 75.2                            | 73.6             | 78.7             | 76.1             | 53.6             |
+ |5th         | PandaGPT            | 58.5                            | 55.3             | 91.1             | 68.8             | 82.3             |
+ |6th         | OneLLM              | 53.7                            | 58.6             | 64.8             | 49.8             | 63.1             |
+ |7th         | ChatBridge          | 52.9                            | 70.9             | 52.9             | 48.9             | 77.6             |
+ |8th         | ImageBind-LLM       | 50.3                            | 50.2             | 87.1             | 63.7             | 86.7             |
+ |9th         | Video-LLaMA         | 50.1                            | 50.1             | 100              | 66.7             | 99.9             |
+ |10th        | X-InstrcutBLIP      | 18.1                            | 16.0             | 15.0             | 15.5             | 46.9             |
 
 
 ### Video-driven Audio Hallucination
 
 |Rank        |    Model            | Acc. (↑)                        | Precision (↑)    | Recall (↑)       | F1 (↑)           | Yes (%)          | 
 |:----------:|---------------------|---------------------------------|------------------|------------------|------------------|------------------|
-|🥇**1st**   | Video-LLaMA2        | 74.2                            | 69.4             | 86.6             | 77.0             | 62.4             |
-|🥈**2nd**   | Video-SALMONN       | 65.2                            | 62.3             | 76.9             | 68.8             | 61.7             | 
-|🥉**3rd**   | Gemini-Flash        | 63.0                            | 57.9             | 94.7             | 71.9             | 81.7             | 
-|4th         | PandaGPT            | 61.3                            | 57.4             | 86.6             | 69.1             | 75.5             |
-|5th         | Video-LLaMA         | 50.2                            | 50.2             | 100              | 66.9             | 100              |
-|6th         | ImageBind-LLM       | 50.0                            | 50.0             | 99.3             | 66.5             | 99.3             |
-|7th         | OneLLM              | 44.3                            | 50.2             | 39.4             | 49.8             | 55.0             |
-|8th         | ChatBridge          | 32.8                            | 60.0             | 32.8             | 39.8             | 14.8             |
-|9th         | X-InstrcutBLIP      | 16.3                            | 14.5             | 38.5             | 21.1             | 77.0             |
+|🥇**1st**   | AVHBench-Align-FT   | 77.3                            | -                | -                | -                | -             |
+|🥈**2nd**   | Video-LLaMA2        | 74.2                            | 69.4             | 86.6             | 77.0             | 62.4             |
+|🥉**3rd**   | Video-SALMONN       | 65.2                            | 62.3             | 76.9             | 68.8             | 61.7             | 
+|4th         | Gemini-Flash        | 63.0                            | 57.9             | 94.7             | 71.9             | 81.7             | 
+|5th         | PandaGPT            | 61.3                            | 57.4             | 86.6             | 69.1             | 75.5             |
+|6th         | Video-LLaMA         | 50.2                            | 50.2             | 100              | 66.9             | 100              |
+|7th         | ImageBind-LLM       | 50.0                            | 50.0             | 99.3             | 66.5             | 99.3             |
+|8th         | OneLLM              | 44.3                            | 50.2             | 39.4             | 49.8             | 55.0             |
+|9th         | ChatBridge          | 32.8                            | 60.0             | 32.8             | 39.8             | 14.8             |
+|910th       | X-InstrcutBLIP      | 16.3                            | 14.5             | 38.5             | 21.1             | 77.0             |
 
 - **Ranking by Accuracy**
-- **Last update**:  November 23rd, 2024
+- **Last update**:  April 4th, 2025
 
 ## Download the AVHBench Dataset
 At this time, we provide a subset of AVHBench, which includes both real and synthetic (swapped) video samples.
