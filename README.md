@@ -21,7 +21,7 @@ We introduce AVHBench, the first comprehensive benchmark specifically designed t
 
  |Rank        |    Model            | Acc. (↑)                        | Precision (↑)    | Recall (↑)       | F1 (↑)           | Yes (%)          | 
  |:----------:|---------------------|---------------------------------|------------------|------------------|------------------|------------------|
- |🥇**1st**   | AVHBench-Align-FT   | 83.9                            | -                |  -               | -                | -             |
+ |🥇**1st**   | AVHModel-Align-FT   | 83.9                            | -                |  -               | -                | -             |
  |🥈**2nd**   | Gemini-Flash        | 83.3                            | 85.7             | 81.0             | 83.7             | 47.3             | 
  |🥉**3rd**   | Video-SALMONN       | 78.1                            | 74.9             | 84.5             | 79.4             | 56.4             | 
  |4th         | Video-LLaMA2        | 75.2                            | 73.6             | 78.7             | 76.1             | 53.6             |
@@ -37,7 +37,7 @@ We introduce AVHBench, the first comprehensive benchmark specifically designed t
 
 |Rank        |    Model            | Acc. (↑)                        | Precision (↑)    | Recall (↑)       | F1 (↑)           | Yes (%)          | 
 |:----------:|---------------------|---------------------------------|------------------|------------------|------------------|------------------|
-|🥇**1st**   | AVHBench-Align-FT   | 77.3                            | -                | -                | -                | -             |
+|🥇**1st**   | AVHModel-Align-FT   | 77.3                            | -                | -                | -                | -             |
 |🥈**2nd**   | Video-LLaMA2        | 74.2                            | 69.4             | 86.6             | 77.0             | 62.4             |
 |🥉**3rd**   | Video-SALMONN       | 65.2                            | 62.3             | 76.9             | 68.8             | 61.7             | 
 |4th         | Gemini-Flash        | 63.0                            | 57.9             | 94.7             | 71.9             | 81.7             | 
@@ -49,6 +49,7 @@ We introduce AVHBench, the first comprehensive benchmark specifically designed t
 |10th       | X-InstrcutBLIP      | 16.3                            | 14.5             | 38.5             | 21.1             | 77.0             |
 
 - **Ranking by Accuracy**
+- **AVHModel-Align-FT refers to the model presented in the fourth row of Table 4 in the main paper.**
 - **Last update**:  April 4th, 2025
 
 ## Download the AVHBench Dataset
