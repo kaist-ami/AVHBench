@@ -48,8 +48,8 @@ We introduce AVHBench, the first comprehensive benchmark specifically designed t
 |9th         | ChatBridge          | 32.8                            | 60.0             | 32.8             | 39.8             | 14.8             |
 |10th       | X-InstrcutBLIP      | 16.3                            | 14.5             | 38.5             | 21.1             | 77.0             |
 
-- **Ranking by Accuracy**
-- **AVHModel-Align-FT refers to the model presented in the fourth row of Table 4 in the main paper.**
+- **Ranked by Accuracy**
+- **AVHModel-Align-FT** refers to the model presented in the fourth row of Table 4 in the main paper.
 - **Last update**:  April 4th, 2025
 
 ## Download the AVHBench Dataset
