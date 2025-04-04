@@ -49,7 +49,7 @@ We introduce AVHBench, the first comprehensive benchmark specifically designed t
 |10th       | X-InstrcutBLIP      | 16.3                            | 14.5             | 38.5             | 21.1             | 77.0             |
 
 - **Ranked by Accuracy**
-- **AVHModel-Align-FT** refers to the model presented in the fourth row of Table 4 in the main paper.
+- **AVHModel-Align-FT** refers to our final model presented in the fourth row of Table 4 in the main paper.
 - **Last update**:  April 4th, 2025
 
 ## Download the AVHBench Dataset
