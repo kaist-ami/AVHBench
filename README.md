@@ -101,6 +101,12 @@ At this time, we provide a subset of AVHBench, which includes both real and synt
       ]
        ```
 
+## Download the AVHModel-Align-FT Model's Checkpoints
+You can fine the checkpoints to inference the model in the link below:\
+https://drive.google.com/drive/folders/18DqvDXVGNr3lFmU9U-Xw2btzfOaozfPv?usp=sharing
+
+The model and inference code are based on a modified version of [AffectGPT](https://github.com/zeroQiaoba/AffectGPT).
+
 ## Citation
 If you use AVHBench in a research paper, please cite our work as follows:
 ````BibTeX
