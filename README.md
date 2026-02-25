@@ -110,11 +110,13 @@ The model and inference code are based on a modified version of [AffectGPT](http
 ## Citation
 If you use AVHBench in a research paper, please cite our work as follows:
 ````BibTeX
-@article{sung2024avhbench,
-  title={AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models},
-  author={Sung-Bin, Kim and Hyun-Bin, Oh and Lee, JungMok and Senocak, Arda and Chung, Joon Son and Oh, Tae-Hyun},
-  journal={arXiv preprint arXiv:2410.18325},
-  year={2024}
+@inproceedings{
+sung-bin2025avhbench,
+title={{AVHB}ench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models},
+author={Kim Sung-Bin and Oh Hyun-Bin and JungMok Lee and Arda Senocak and Joon Son Chung and Tae-Hyun Oh},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=jTEKTdI3K9}
 }
 ````
 
