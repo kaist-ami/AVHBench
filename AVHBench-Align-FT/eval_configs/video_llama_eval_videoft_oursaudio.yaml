@@ -1,0 +1,34 @@
+model:
+  arch: video_llama
+  model_type: pretrain_vicuna
+
+  # Video-LLaMA
+  ckpt:   '/node_data/hboh/neurips24/affectgpt/Video-LLaMA-Series/finetune-vicuna7b-v2.pth'
+  ckpt_2: '/node_data/hboh/neurips24/affectgpt/output_ckpt/20240529155914_100_5000_1000/checkpoint_000001_loss_1.648.pth'
+
+  # Other pre-trained models
+  llama_model: '/node_data/hboh/neurips24/affectgpt/vicuna-7b-v0'
+  q_former_model: "/node_data/hboh/neurips24/affectgpt/blip2_pretrained_flant5xxl.pth"
+  imagebind_ckpt_path: "/node_data/hboh/neurips24/affectgpt/imagebind_huge.pth"
+
+datasets:
+  halluci_reason_instruct:
+    data_type: video
+    build_info:
+      ann_path: /node_data/hboh/neurips24/0527_train_subset/qa_uniform.json
+      vis_root: /node_data/hboh/neurips24/0527_train_subset/videos/
+    vis_processor:
+      train:
+        name: "alpro_video_train"
+        n_frms: 8
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+    num_audio_query_token: 8
+    num_video_query_token: 32
+    tokenizer_name: "/node_data/hboh/neurips24/affectgpt/vicuna-7b-v0"
+    max_length: 512
+
+run:
+  task: video_text_pretrain
